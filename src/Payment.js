@@ -114,7 +114,7 @@ function Payment() {
             <h3>Payment Method</h3>
           </div>
           <div className="payment_details">
-            {/*stripe magic */}
+            {/*stripe */}
             <form onSubmit={handleSubmit}>
               <CardElement onChange={handleChange} />
               <div className="priceContainer">

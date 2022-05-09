@@ -3,3 +3,12 @@
     margin: 20px 0px;
     border: 1px solid ;
 }
+.order_id{
+    position:absolute;
+    top:40px;
+    right: 20px;
+}
+.order_total{
+    font-weight: 500;
+    text-align: right;
+}

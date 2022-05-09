@@ -37,10 +37,12 @@ function Header() {
             <span className="optline2">{user ? "Sign Out" : "Sign In"}</span>
           </div>
         </Link>
+        <Link to='/orders'>
         <div className="option">
           <span className="optline1">Returns &</span>
           <span className="optline2">Orders</span>
         </div>
+        </Link>
         <div className="option">
           <span className="optline1">Your</span>
           <span className="optline2">Prime</span>
